@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #818181;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal {
+    max-width: 450px;
+    margin: 8rem auto 0;
+}
+
+.container {
+    border: 1px solid #F0E68C;
+    background-color: #3d3d3d;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #F0E68C;
+    text-align: center;
+} 
+
+.campoTarefa {
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: #777777;
+}
+
+.campoTarefa::placeholder {
+    color: #ffffff;
+}
+
+.botaoTarefa {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #777777;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.botaoTarefa:hover {
+    background-color: #b6b6b6;
+}
+
+.lista {
+    padding: 0;
+}
+
+.itemLista {
+    list-style: none;
+    padding: 1rem;
+    background-color: #777777;
+    border-radius: 10px;
+    margin: 0 1rem .5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+
+.fa {
+    background-color: #919191;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+
+.fa:hover {
+    background-color: #b6b6b6;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+
+    <!------Icones------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!------Font------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!------CSS------>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="principal">
+        <div class="container">
+            <h1 class="titulo">To do list</h1>
+            <form id="inserirTarefa">
+                <input type="text" id="campoTarefa" class="campoTarefa" placeholder="Adicione uma tarefa">
+                <button type="submit" id="botaoAdicionar" class="botaoTarefa">+</button>
+            </form>
+
+            <ul class="lista" id="lista">
+                <!--<li id="itemLista" class="itemLista">Tirar o lixo
+                    <div id="div">
+                        <button class="concluir">
+                            <li class="fa fa-check"></li>
+                        </button>
+                        <button class="deleta">
+                            <li class="fa fa-trash"></li>
+                        </button>
+                    </div>    
+                </li>-->
+            </ul>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
